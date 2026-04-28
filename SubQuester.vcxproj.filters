@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダー ファイル">
+      <UniqueIdentifier>{331265db-45a4-41d9-82a8-f294bbc7c0c8}</UniqueIdentifier>
+      <Extensions>hlsl</Extensions>
+    </Filter>
+    <Filter Include="シェーダー ファイル\pixel">
+      <UniqueIdentifier>{27ca8298-f942-4702-af0a-85868f411b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダー ファイル\vertex">
+      <UniqueIdentifier>{26376140-f825-408f-bd35-bf6f1ab532b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{cc060707-e468-41ef-b6b7-aa7138bbc08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{9fc5fce7-23b9-495e-b976-bf1e79f8d819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utils">
+      <UniqueIdentifier>{b0437536-8bd0-43f3-a753-fe660e38f628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\utils">
+      <UniqueIdentifier>{54a0756e-5b8b-49ab-9a8d-0691618598c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\actor">
+      <UniqueIdentifier>{d47c09ff-a577-43a3-8ce0-a10ca90cc2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\actor">
+      <UniqueIdentifier>{8b47a00b-5b61-4ac8-a598-0bf20a6b1583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\graphics">
+      <UniqueIdentifier>{2cfce386-7c17-4873-b88c-a0285db01eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\graphics">
+      <UniqueIdentifier>{f9b2f32f-14eb-4757-ba83-d36a99a4c56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{f75702f6-7930-449c-822f-9afd759638af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{c2a79ec0-709f-4014-a0d2-9c0ebea947e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\graphics\camera">
+      <UniqueIdentifier>{fcea3141-f56b-4941-9df7-ec5293c1f4da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\system\Audio.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\game_window.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\gamepad.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\key_logger.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\keyboard.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\mouse.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\pad_logger.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\particle.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\WICTextureLoader11.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\boss_counter.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\collision.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\easing_cube.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\fade.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\terrain_collision.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\map_loader.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\player_upgrade.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\route_search.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\score.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\shot_counter.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\system_timer.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\timer.cpp">
+      <Filter>ソース ファイル\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\bullet.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\bullet_hit_effect.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\Enemy.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\enemy_boss.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\enemy_bullet.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\enemy_normal.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\player.cpp">
+      <Filter>ソース ファイル\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\billboard.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\bloom.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\cube.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\debug_draw.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\debug_ostream.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\debug_primitive.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\debug_text.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\effect.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\grid.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\light.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\map.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\meshfield.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model_skinned.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\particle_test.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sampler.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_billboard.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_field.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_shadow.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader3d.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader3d_unlit.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shadow_map.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sky.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sprite.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sprite_anim.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\surface_transition_effect.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\trajectory.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\trajectory3d.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\underwater_effect.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\water.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\water_reflect.cpp">
+      <Filter>ソース ファイル\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\direct3d.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\dock.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\game.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\result.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\title.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\camera.cpp">
+      <Filter>ソース ファイル\graphics\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\light_camera.cpp">
+      <Filter>ソース ファイル\graphics\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\map_camera.cpp">
+      <Filter>ソース ファイル\graphics\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\player_camera.cpp">
+      <Filter>ソース ファイル\graphics\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actor\enemy_final_boss.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\actor\bullet.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\bullet_hit_effect.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\Enemy.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\enemy_boss.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\enemy_bullet.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\enemy_normal.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\player.h">
+      <Filter>ヘッダー ファイル\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\billboard.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\bloom.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\camera.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\cube.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\debug_draw.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\debug_ostream.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\debug_primitive.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\debug_text.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\effect.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\grid.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\light.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\light_camera.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\map.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\map_camera.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\meshfield.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model_skinned.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\particle.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\particle_test.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\player_camera.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sampler.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_billboard.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_field.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader_shadow.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader3d.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader3d_unlit.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shadow_map.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sky.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sprite.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sprite_anim.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\surface_transition_effect.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\trajectory.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\trajectory3d.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\underwater_effect.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\water.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\water_reflect.h">
+      <Filter>ヘッダー ファイル\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\dock.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\game.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\result.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\title.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Audio.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\direct3d.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\game_window.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\gamepad.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\key_logger.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\keyboard.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\mouse.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\pad_logger.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\WICTextureLoader11.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\boss_counter.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\collision.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\easing_cube.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\fade.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\map_loader.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\player_upgrade.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\route_search.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\score.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\shot_counter.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\system_timer.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\terrain_collision.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\timer.h">
+      <Filter>ヘッダー ファイル\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actor\enemy_final_boss.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\shader_pixel_2d.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_2d_circle.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_3d.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_3d_unlit.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_billboard.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_field.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_shadow.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_pixel_water.hlsl">
+      <Filter>シェーダー ファイル\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_2d.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_3d.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_3d_unlit.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_billboard.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_field.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_shadow.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\shader_vertex_water.hlsl">
+      <Filter>シェーダー ファイル\vertex</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
