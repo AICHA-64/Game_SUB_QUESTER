@@ -53,7 +53,7 @@ float CalculateShadow(float4 posLightSpace)
     float currentDepth = projCoords.z;
     float bias = 0.00005f; // 水面用に少し大きめのバイアス
     float shadow = 0.0f;
-    float2 texelSize = 1.0f / float2(4056.0f, 4056.0f);
+    float2 texelSize = 1.0f / float2(4096.0f, 4096.0f);
     
     [unroll]
     for (int x = -1; x <= 1; ++x)
